@@ -1,0 +1,63 @@
+body{
+    background-color: #042326;
+}
+
+@font-face{
+    font-family: 'Trajan Pro';
+    src: url(fonts/Trajan\ Pro\ Regular.ttf);
+}
+
+@font-face{
+    font-family: 'Noto Serif Regular';
+    src: url(fonts/NotoSerif-Regular.ttf);
+}
+
+h1{
+    font-family: 'Perpetu';
+    color: white;
+    font-size: 30px;
+    margin: 0;
+}
+
+p{
+    font-family: 'Noto Serif Regular';
+    color: white;
+    text-align: justify;
+    font-size: 15px;
+
+    margin: 0;
+}
+
+.main{
+    display: flex;
+}
+
+nav{
+    display: flex;
+    justify-content: top;
+}
+
+header{
+    display: flex;
+    justify-content: center;
+}
+
+#titleImg{
+    width: 50%;
+}
+
+section{
+    background-color: #0A3A40;
+    display: flex;
+    justify-content: start;
+    width: 40%;
+    border-radius: 15px;
+}
+
+.description{
+    margin: 10px;
+}
+
+aside{
+    display: flex;
+}
